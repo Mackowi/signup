@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;   
+}
+
+html, body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.backgroundImage {
+    /* border: 5px red solid; */
+    background-image: url('./pic.jpg');
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin: 15% 0% 15% 0%;
+    height: 160px;
+    background-color: rgba(1,1,1,0.4);
+    color: aliceblue;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg {
+    height: 125px;
+    width: 125px;
+}
+
+.logotext {
+    font-weight: 600;
+    font-family: 'AcknowledgementMedium', 'Courier New';
+    font-size: 30px;
+}
+
+.signup {
+    background-color: rgb(241, 241, 234);
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.signupHeader {
+    margin: 85px 0px 60px 0px;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.forms {
+    background-color: rgb(245, 245, 245);
+    box-shadow: 5px 10px #bdb9b93a;
+    padding: 30px 15px 30px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formsHeader {
+    margin-bottom: 30px;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+input{
+    display: flex;
+    flex-flow: column wrap;
+    opacity: 55%;
+    height: 30px;
+    width: 270px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+#first, #second, #third {
+    /* border: 5px solid blue; */
+    display: flex;
+    gap: 75px;
+    margin: 30px 0px 30px 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.signupFooter {
+    margin-top: 35px;
+    /* border: 5px solid blue; */
+}
+
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
